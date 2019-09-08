@@ -1,0 +1,61 @@
+body {
+
+    background-color: steelblue;
+   
+    
+    }
+
+    div {
+        
+        border-color: coral;
+    }
+    address {
+    
+        color:salmon;
+    
+        text-align:right;
+    
+        font: 15px arial, sans-serif;
+    }
+   
+    h1 {
+    
+        color: goldenrod;
+        text-align:center;
+    
+    }  
+
+    h2 {
+ 
+        color:goldenrod;
+        text-align: right;
+    }
+
+    img{
+        
+        width: 700px;
+        position:relative;
+        left:350px;
+
+    }
+    
+
+    p1 {
+
+        color: salmon;
+        font: 6mm;
+
+    }
+   
+   h3 {
+
+        color: goldenrod;
+        text-align:right;
+
+   }
+    p2{
+        color: salmon;
+        text-align:left;
+        font: 6mm
+
+    }   
