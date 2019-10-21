@@ -3,9 +3,43 @@
 <title> All American Diner</title>
 
 <link rel="stylesheet" type="text/css" href="Sams Diner.css">
-
+<link rel="stylesheet" type="text/css" href="burger.css">
 <body>
-    
+   
+
+
+
+<nav role="navigation">
+                <div id="menuToggle">
+                  <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                  <input type="checkbox" />
+                  
+                  <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <!--
+                  Too bad the menu has to be inside of the button
+                  but hey, it's pure CSS magic.
+                  -->
+                  <ul id="menu">
+                    <a href="SamsDiner.html"><li>Home</li></a>
+                    <a href="Menu.html"><li>Menu</li></a>
+                    <a href="#"><li>Info</li></a>
+                    <a href="#"><li>Contact</li></a>
+                    
+                  </ul>
+                </div>
+              </nav>
 
         <address>
                 Written by: Samuel Kidane <br>
@@ -14,7 +48,7 @@
                 USA
         </address>
 
-<h1>   ALL AMERICAN DINER  </h1>
+<div w3-include-html="html-thing.html"></div>
 
 <h2>   CONTACT US    </h2>
 
@@ -26,11 +60,23 @@
 <h3>     ABOUT US           </h3>
 
 <p2>   This Diner has been in this small corner of a growing city for decades and we finally made the big step of 
-        having a website .We have been serving genuine american recipes for decades and our customers come back
-    again and again, even our customers children as adults visit us to have yet another meal at
-    this All American Diner     <br>        </p2>
+        having a website .We have been serving genuine american recipes for decades and our customers come <br> 
+        back again and again, even our customers children as adults visit us to have yet another meal at
+        this All American Diner   <br>    </p2>
+
 
 
  <img class= "img-Burger" src="Burger.jpg" alt="Burger">
+
+ <script type= "text/javascript" src= "include.js"></script>
+ <script> includeHTML();</script>
+
+
+
+
+
+
+
+
 </body>
 </html>

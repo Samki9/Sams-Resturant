@@ -43,7 +43,7 @@ body {
     p1 {
 
         color: salmon;
-        font: 6mm;
+        font: 15px arial, sans-serif;
 
     }
    
@@ -56,6 +56,14 @@ body {
     p2{
         color: salmon;
         text-align:left;
-        font: 6mm
+        font: 15px arial, sans-serif;
 
     }   
+
+    p3{
+        color: salmon;
+        text-align: center;
+        font: arial, sans-serif;
+        
+    
+    }

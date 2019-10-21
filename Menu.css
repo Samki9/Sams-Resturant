@@ -1,0 +1,55 @@
+body {
+
+    background-color: #232323;
+}
+
+h1 {
+
+    color: #6AD652;
+    
+    text-align:center;
+}
+
+p {
+
+    color: #6AD652;
+    text-align:left;
+    font: 20px arial, sans-serif;
+
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #232323;
+    padding: 10px;
+  
+    text-align: center;
+    font-size: 30px;
+  }
+div{
+    color: #455468;
+     
+}
+
+.img-Burger{
+        
+    max-width: 100%;
+    
+    
+}
+
+.img-pancakes{ 
+
+    height: 200px;
+    width: 50%;
+    
+}
+
+.img-Crab-Cakes {
+
+    height: 200px;
+    width: 50%;
+}
